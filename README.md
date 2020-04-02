@@ -8,6 +8,6 @@ The user is able able to:
   * Filter the list of employees
 
 ## Deployed site
-[Check it out here](https://apricot-pudding-64383.herokuapp.com/)
+[Check it out here](https://apricot-pudding-64383.herokuapp.com/) 
 
 ![picture1](./public/assets/img/Capture.PNG)
