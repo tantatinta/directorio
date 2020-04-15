@@ -1,5 +1,5 @@
 # directorio
-Employee directory app using React
+Employee directory app using React **in progress**
 
 ## Description
 User can view a table of employees when page is loaded.
