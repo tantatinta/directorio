@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React from "react";
 // import "./style.css";
 
 
 
-import EmployeeCard from '../EmployeeCard/EmployeeCard'
+import EmployeeCard from '../EmployeeCard'
 function EmployeeWrapper(props) {
   
 
@@ -20,7 +20,11 @@ function EmployeeWrapper(props) {
           </tr>
         </thead>
         <tbody>
-          <EmployeeCard users={props.users} handler={props.handler}/>
+          <EmployeeCard 
+          users={props.users} 
+          handler={props.handler}
+          searchEmployee={props.searchEmployee}
+          />
         </tbody>
       </table>
     </div>  
