@@ -18,8 +18,7 @@ function App() {
     const filteredUsersArrayByName = users.filter(user => user.name.first.toLowerCase().includes(searchTerm.toLowerCase()))
     setTheUsers(filteredUsersArrayByName);
 
-    const filteredUsersArrayByLast = users.filter(user => user.name.last.toLowerCase().includes(searchTerm.toLowerCase()))
-    setTheUsers(filteredUsersArrayByLast);
+    
   }
 
   
